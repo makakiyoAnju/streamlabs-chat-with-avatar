@@ -1,5 +1,7 @@
 # Streamlabs - Chat with Avatars
 Custom HTML/CSS/JS to have Twitch profile pic showing alongside with chat messages of the Chat box widget
+
+##### Preview
 ![preview](https://user-images.githubusercontent.com/40627143/160465881-bf89c370-1695-4b1c-92b4-03bb61bf8c31.png)
 
 ## Instructions
