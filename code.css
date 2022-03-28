@@ -1,0 +1,116 @@
+* {
+  display;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+
+    font-family: 'Comfortaa';
+    font-size: {font_size};
+    font-weight: 700;
+    line-height: 1.5em;
+    color: {text_color}
+}
+
+.colon {
+  display: none;
+}
+
+#log {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#log > div {
+  display: table;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease forwards, fadeOut 1s ease {message_hide_delay} forwards;
+  -webkit-animation: fadeIn 1s ease forwards, fadeOut 1s ease {message_hide_delay} forwards;
+}
+
+#log > div:last-child {
+  padding-bottom: 0;
+}
+
+#log > div.deleted {
+  visibility: hidden;
+}
+
+/* Avatar PFP section */
+#log .meta {
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  display: table-cell;
+}
+
+/* User message section */
+#log .message {
+  word-wrap: break-word;
+  width: 100%;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  text-align: left;
+  vertical-align: middle;
+}
+  #log .message .author {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-shadow: none;
+  }
+    #log .message .author .badges {
+      display: flex;
+    }
+
+/* Emotes within the messages */
+#log .emote {
+  display: inline;
+  line-height: 1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  box-sizing: border-box;
+  position: relative;
+  background-image: none !important;
+  vertical-align: bottom;
+}
+  #log .emote > img {
+    width: auto;
+    height: 1.9em;
+  }
+
+/* The avatar that shows up on the left of the message/name */
+#log .pic{
+
+}
+  #log .pic > img {
+    border-radius: 50%;
+  }
+
+/* Name and badge section */
+.badge {
+  display: block;
+  height: 1em;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+  .name {
+      line-height: 1em;
+      vertical-align: middle;
+  }
