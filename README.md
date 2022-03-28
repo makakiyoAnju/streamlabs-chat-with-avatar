@@ -8,7 +8,7 @@ This uses Streamlabs' Chat Box widget to have the users' Twitch profile pic show
 
 ## Instructions
 
-### Getting your Client ID
+##### Getting your Client ID
 Before you do anything, you want to make your own client application by going to https://dev.twitch.tv/ and logging with your Twitch account. This is important as you need to get a client ID from it once it has been created. <br />
 
 Once you are logged in, go to `Your Console` and click on the `Applications` tab. There will be a button "Register an Application". <br />
@@ -21,7 +21,7 @@ Once added, make sure you hit save. Now you want to copy your Client ID (or keep
 
 ---
 
-### Setting up the Custom Chat
+##### Setting up the Custom Chat
 Login to your [Streamlabs](https://streamlabs.com/) dashboard. <br />
 
 Now go and click `All Widgets` in the left side navigation then **Chat Box** (or Streamlabs Desktop/SLOBS Chat Box widget). <br />
@@ -33,7 +33,7 @@ Here you will paste the codes in the HTML, CSS, and JS. You can get the codes fo
 
 ---
 
-### Getting the OAuth token
+##### Getting the OAuth token
 Go to the [Twitch OAuth Token Generator](https://twitchapps.com/tokengen/) to generate your token <br />
 
 Copy and paste your Client ID from your newly created application from Twitch Developer You don't need to do anything with the `Scopes`. <br />
@@ -42,7 +42,7 @@ Now click on `Connect` and it will give you a token. You will need this for your
 
 ---
 
-### Editing & Inputting into Codes
+##### Editing & Inputting into Codes
 The most important part in editting are the following: <br/>
 ##### JS
   
