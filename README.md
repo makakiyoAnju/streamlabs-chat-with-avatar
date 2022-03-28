@@ -72,7 +72,7 @@ You are welcome to edit anything if you know what you are doing.
 - The profile pic goes back to my default image even though the Twitch user has a profile pic. Why?
   - It is most likely the OAuth token expired or is wrong. I suggest generating a new token.
 - I want the avatar pic to be smaller/bigger
-  -  Just edit the values in the html where is says `width` & `height` of the `IMG` tag.
+  -  Just edit the values in the HTML where is says `width` & `height` of the `IMG` tag.
 
 ## Credits 
 Original source code from [drakantas](https://github.com/drakantas)
