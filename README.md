@@ -24,10 +24,10 @@ Once added, make sure you hit save. Now you want to copy your Client ID (or keep
 ### Setting up the Custom Chat
 Login to your [Streamlabs](https://streamlabs.com/) dashboard. <br />
 
-Now go and click "All Widgets" in the left side navigation then Chat Box (or Streamlabs Desktop/SLOBS Chat Box widget). <br />
+Now go and click `All Widgets` in the left side navigation then **Chat Box** (or Streamlabs Desktop/SLOBS Chat Box widget). <br />
 ![leftnavipreview](https://user-images.githubusercontent.com/40627143/160467839-43a584fb-223f-4bc7-957d-8bba53456c28.png) <br />
 
-Find `Enable Custom HTML/CSS` and have it as "Enabled" selected. <br />
+Find `Enable Custom HTML/CSS` and have it as `Enabled` selected. <br />
 
 Here you will paste the codes in the HTML, CSS, and JS. You can get the codes for them here: [HTML](code/index.html), [CSS](code/style.css), [JS](code/functions.js) <br />
 
