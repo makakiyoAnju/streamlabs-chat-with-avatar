@@ -2,12 +2,10 @@
   const clientId = '{Your Client ID here}'; // Only need to edit if you are doing your own Twitch app registry
 
   // URLs to use
-  const redirectUrl = 'https://twitchapps.com/tokengen/&scope=';
   const defaultAvatarUrl = '{Your default Image URL here}';
 
   // I wouldn't touch this unless you know what you are doing
   const endpoint = channelName => `https://api.twitch.tv/helix/users?login=${channelName}`;
-  var oauthUrl = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${redirectUrl}`;
 
   // Saved information
   var accessToken = '{Your OAuth token here}'; // Only change if you need a new token
