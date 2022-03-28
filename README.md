@@ -73,6 +73,8 @@ You are welcome to edit anything if you know what you are doing.
   - It is most likely the OAuth token expired or is wrong. I suggest generating a new token.
 - I want the avatar pic to be smaller/bigger
   -  Just edit the values in the HTML where is says `width` & `height` of the `IMG` tag.
+- I want to see how it looks without spamming my chat. How?
+  -  Just add `?simulate=1` at the end of your widget URL (won't work with the built-in Chat box widget in Streamlabs Desktop). Sadly you won't be able to see how it looks with long chat messages.
 
 ## Credits 
 Original source code from [drakantas](https://github.com/drakantas)
