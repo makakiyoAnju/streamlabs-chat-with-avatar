@@ -1,5 +1,5 @@
 # Streamlabs - Chat with Avatars
-Custom HTML/CSS/JS to have Twitch profile pic showing alongside with chat messages of the Chat box widget. <br />
+This uses Streamlabs' Chat Box widget to have the users' Twitch profile pic showing along side the chat message. <br />
 
 *You can also change the font size and color within the Streamlabs Chat box widget setting without messing with the codes.*
 
