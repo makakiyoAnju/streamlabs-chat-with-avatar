@@ -14,7 +14,7 @@ body {
     font-size: {font_size};
     font-weight: 700;
     line-height: 1.5em;
-    color: {text_color}
+    color: {text_color};
 }
 
 .colon {
@@ -64,7 +64,6 @@ body {
   word-wrap: break-word;
   width: 100%;
   letter-spacing: 0.5px;
-  color: #fff;
   text-shadow: 0 1px 0 rgba(0,0,0,0.1);
   text-align: left;
   vertical-align: middle;
