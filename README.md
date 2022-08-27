@@ -1,1 +1,3 @@
-I have moved the project where it will get updates from time to time here: https://github.com/makakiyoAnju/streamlabs-custom-chat
+# This project is old and won't be getting any further updates/changes.
+
+Click here for the latest: [Streamlabs - Custom Chat](https://github.com/makakiyoAnju/streamlabs-custom-chat)
